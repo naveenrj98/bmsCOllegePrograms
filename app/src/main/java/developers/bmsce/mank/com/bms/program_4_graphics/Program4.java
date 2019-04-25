@@ -16,7 +16,7 @@ public class Program4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_graphical);
+        setContentView(R.layout.activity_program4);
 
         //Creating a Bitmap
         Bitmap bg = Bitmap.createBitmap(720, 1280, Bitmap.Config.ARGB_8888);

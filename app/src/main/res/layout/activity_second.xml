@@ -1,34 +1,92 @@
-<?xmlversion="1.0"encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
     android:gravity="center"
+
+    android:layout_marginBottom="10dp"
     android:orientation="vertical"
-    tools:context=".program_2_eventlistener.SecondActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="New Text"
-        android:textSize="30sp" />
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:text="New Text"
+    android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="New Text"
-        android:textSize="30sp" />
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:text="New Text"
+    android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="New Text"
-        android:textSize="30sp" />
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:text="New Text"
+    android:textSize="30sp" />
 
-</LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+
+
+    <!--<?xmlversion="1.0"encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+
+    <!--tools:context=".program_2_eventlistener.SecondActivity">-->
+
+
+    <!--<LinearLayout-->
+        <!--android:gravity="center"-->
+
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:text="New Text"-->
+        <!--android:textSize="30sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:text="New Text"-->
+        <!--android:textSize="30sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:text="New Text"-->
+        <!--android:textSize="30sp" />-->
+
+    <!--</LinearLayout>-->
+
+<!--</RelativeLayout>-->

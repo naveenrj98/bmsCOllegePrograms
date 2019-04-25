@@ -20,7 +20,7 @@ import developers.bmsce.mank.com.bms.R;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculater);
+        setContentView(R.layout.activity_program3);
 
         button0 = (Button) findViewById(R.id.button0);
         button1 = (Button) findViewById(R.id.button1);

@@ -18,7 +18,7 @@ public class Program7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_program7);
         btnShowLocation = (Button) findViewById(R.id.Show_Location);
         btnShowLocation.setOnClickListener(new View.OnClickListener() {
             @Override
