@@ -30,7 +30,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".program_7_gps.Program7">
+        <activity android:name=".program_7_gps.Program7"
+            android:label="GPS">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -64,14 +65,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".program_1_FontAndColor.Program1">
+        <activity android:name=".program_1_FontAndColor.Program1"
+            android:label="FONT">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".program_8_SdCard.Program8">
+        <activity android:name=".program_8_SdCard.Program8"
+            android:label="SD CARD">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
